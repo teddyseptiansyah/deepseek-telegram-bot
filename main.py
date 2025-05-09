@@ -3,8 +3,8 @@ import requests
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+TELEGRAM_TOKEN = os.getenv("7775353801:AAGIHSJsE2YLz_d6PW3eG7-6QmnJWQjz014")
+DEEPSEEK_API_KEY = os.getenv("sk-13637f0235c84684b04f8cfb8b8a8cfd")
 
 async def start(update: Update, _):
     await update.message.reply_text("🤖 DeepSeek AI Bot siap membantu!")
